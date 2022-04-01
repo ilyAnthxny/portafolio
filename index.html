@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio Marco Gamiño</title>
+</head>
+<body class="dark">
+
+    <header class="header">
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+                <img 
+                id="toggle-icon" 
+                src="assets/icons/moon.svg" 
+                alt="icon theme" 
+                class="toggle-theme__icon" > 
+                <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+            </div>
+        </div>
+        <div id="flags" class="flags">
+            <div class="flags__item" data-lenguage="mex">
+                <img src="assets/icons/mx.svg" alt="flag mex" class="flags__img">
+            </div>
+        </div>
+        <div id="flags" class="flags">
+            <div class="flags__item" data-lenguage="us">
+                <img src="assets/icons/us.svg" alt="flag us" class="flags__img">
+            </div>
+        </div>
+
+        <div id="toggle-colors" class="colors">
+            <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+
+            <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+
+            <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+            <div data-color="hsl(0, 84%, 56%)" class="colors__item colors__item--red"></div>
+
+        </div>
+    </header>
+    
+    <main class="main">
+        <section class="column column--left">
+            <!-- Profile card -->
+            <article class="card card--profile">
+                <div class="card__image-container">
+                    <img src="assets/images/profile1.jpg" alt="Marco Gamiño Ponce" class="profile__image">
+                </div>
+                <div class="card__header">
+                    <h2 class="card__title no-margin">Marco Gamiño Ponce</h2>
+                    <p class="card__subtitle no-margin">Frontend</p>
+                </div>
+                <div class="card__body">
+                    <div class="card__link">
+                        <i class="fas fa-envelope icon"></i>
+                        <a href="mailto:anthonydeoz2@gmail.com">anthonydeoz2@gmail.com</a>
+                    </div>
+                    <div class="card__link">
+                        <i class="fas fa-phone-alt icon"></i>
+                        <a href="tel: 5570596197"> +52 5570596197</a>
+                    </div>
+                </div>
+                <p class="card__text">
+                    Hi!, I'm a Frontend developer, I'm a developer who is passionate with aply software solutions developing with the latest technologies.
+                </p>
+            </article>
+            <article class="card card--experience">
+                <h2 class="card__title">Experience</h2>
+                <div class="experience">
+                    <img src="assets/images/logo.png" alt="logo" class="experience__image" >
+                    <div class="experience__info">
+                        <p class="experience__time">
+                            Oct 2021 - Current
+                        </p>
+                        <h3 class="experience__job">Front End developer</h3>
+                        <p class="experience__description">I have experience developing web pages and through courses that have led me to perfect my skills. Just as I find myself working on personal projects.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--hobbies">
+                <h2 class="card__title">Hobbies</h2>
+                <div class="card__image-container">
+                    <img src="assets/images/hobbie.png" alt="Guitar">
+                </div>
+                <h3 class="hobbie__title">Play Guitar</h3>
+                <p class="card__text">Writing code is not only one of my passions, in my free time, I usually play the guitar. We always have time and patience to do what we are passionate about.</p>
+            </article>
+        </section>
+
+
+        <!-- Projects -->
+        <section class="column column__right projects__img">
+            <article class="card">
+                <h2 class="card__title">Frontend</h2>
+                <small>Experience</small>
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">HTML</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">CSS</p>
+                        <div class="skills__bar skills__bar--70"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">JavaScript</p>
+                        <div class="skills__bar skills__bar--60"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <h2 class="card__title">Design</h2>
+                <small>Experience</small>
+                <div class="skills__header">
+                </div>
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">Photoshop</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <h2 class="card__title">Multimedia</h2>
+                <small>Experience</small>
+                <div class="skills__header">
+
+                </div>
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">Premiere</p>
+                        <div class="skills__bar skills__bar--20"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/website.jpg" alt="landing page project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#JavaScript</span>
+                        <span class="project__tag">#Responsive</span>
+                    </div>
+                    <h2 class="card__title">WebSite with HTML/CSS/JS</h2>
+                    <p class="card__text">A website made from html css and js, including responsive web design.</p>
+                    <!-- <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sed eligendi quam consectetur sequi, corporis quod sapiente architecto corrupti, explicabo, esse doloremque animi recusandae odio maiores. Corrupti provident officia autem.</p> -->
+
+                <div class="buttons">
+                    <a href="https://ilyanthxny.github.io/webSite/" class="button button--primary" target="blank">Demo</a>
+                    <a href="https://github.com/ilyAnthxny/webSite" class="button button--ghost" target="blank">Code</a>
+                </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/page-sass.jpg" alt="landing page project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#JavaScript</span>
+                        <span class="project__tag">#SASS</span>
+                        <span class="project__tag">#Responsive</span>
+                    </div>
+                    <h2 class="card__title">Landing Page with SASS</h2>
+                    <p class="card__text">LLanding page made with HTML, CSS, JavaScript and a CSS's Library: SASS, including responsive web design. On mobile looks great.</p>
+                    <!-- <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sed eligendi quam consectetur sequi, corporis quod sapiente architecto corrupti, explicabo, esse doloremque animi recusandae odio maiores. Corrupti provident officia autem.</p> -->
+
+                <div class="buttons">
+                    <a href="https://ilyanthxny.github.io/page-sass/" class="button button--primary" target="blank">Demo</a>
+                    <a href="https://github.com/ilyAnthxny/page-sass" class="button button--ghost" target="blank">Code</a>
+                </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/page-bootstrap.jpg" alt="landing page project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#JavaScript</span>
+                        <span class="project__tag">#Responsive</span>
+                        <span class="project__tag">#Bootstrap</span>
+                    </div>
+                    <h2 class="card__title">Landing Page with Bootstrap</h2>
+                    <p class="card__text">Landing page including the most popular HTML, CSS and JS library: Bootstrap.
+                    including responsive web design. Code by HTML, CSS and JavaScript.
+                    </p>
+                    <!-- <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sed eligendi quam consectetur sequi, corporis quod sapiente architecto corrupti, explicabo, esse doloremque animi recusandae odio maiores. Corrupti provident officia autem.</p> -->
+
+                <div class="buttons">
+                    <a href="https://ilyanthxny.github.io/page-bootstrap/" class="button button--primary" target="blank">Demo</a>
+                    <a href="https://github.com/ilyAnthxny/page-bootstrap" class="button button--ghost" target="blank">Code</a>
+                </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/page--js.jpg" alt="landing page project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#JavaScript</span>
+                        <span class="project__tag">#Responsive</span>
+                    </div>
+                    <h2 class="card__title">WebSite with HTML/CSS/JS</h2>
+                    <p class="card__text">A beautiful landing page, I made it using HTML, CSS and a little bit of Javascript to the hamburger button. Contains responsive web design</p>
+                    <!-- <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sed eligendi quam consectetur sequi, corporis quod sapiente architecto corrupti, explicabo, esse doloremque animi recusandae odio maiores. Corrupti provident officia autem.</p> -->
+
+                <div class="buttons">
+                    <a href="https://ilyanthxny.github.io/landing-page-js/" class="button button--primary" target="blank">Demo</a>
+                    <a href="https://github.com/ilyAnthxny/landing-page-js" class="button button--ghost" target="blank">Code</a>
+                </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/portfolio2.0.jpg" alt="landing page project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#Responsive</span>
+                    </div>
+                    <h2 class="card__title">Portfolio only HTML/CSS</h2>
+                    <p class="card__text">First idea of a portfolio web, i just made it using HTML and CSS only. Keeps adding responsive web design.</p>
+                    <!-- <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sed eligendi quam consectetur sequi, corporis quod sapiente architecto corrupti, explicabo, esse doloremque animi recusandae odio maiores. Corrupti provident officia autem.</p> -->
+
+                <div class="buttons">
+                    <a href="https://ilyanthxny.github.io/portafolio2.0/" class="button button--primary" target="blank">Demo</a>
+                    <a href="https://github.com/ilyAnthxny/portafolio2.0" class="button button--ghost" target="blank">Code</a>
+                </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/landing-page-html-css.jpg" alt="landing page project" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#Responsive</span>
+                    </div>
+                    <h2 class="card__title">Landing Page using HTML/CSS</h2>
+                    <p class="card__text">A great and beautiful page only using HTML and CSS and responsive.</p>
+                    <!-- <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sed eligendi quam consectetur sequi, corporis quod sapiente architecto corrupti, explicabo, esse doloremque animi recusandae odio maiores. Corrupti provident officia autem.</p> -->
+                <div class="buttons">
+                    <a href="https://ilyanthxny.github.io/pagina-web/" class="button button--primary" target="blank">Demo</a>
+                    <a href="https://github.com/ilyAnthxny/pagina-web" class="button button--ghost" target="blank">Code</a>
+                </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__text">
+            <div class="footer__links">
+                <a href="https://www.facebook.com/profile.php?id=100012520361406" target="blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://github.com/ilyAnthxny" target="blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/marco-gami%C3%B1o-ponce-118662223/" target="blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer__logos">
+            <img src="assets/images/logos.png" alt="">
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
